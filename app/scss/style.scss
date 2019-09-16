@@ -1,0 +1,24 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+.box{
+    font-size: 12px;
+    margin: 0;
+   text-align: center;
+   overflow: hidden;
+}
+.test{
+    background-color: #fff;
+}
+body{
+    background-color: blue;
+}
+.box{
+    display: flex;
+    transition: all .3s;
+}
